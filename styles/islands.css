@@ -1,7 +1,9 @@
 :root {
-    --green:#074817;
+    --blue:#11467D;
+    --green:#4C7335;
     --white:#ffffff;
     font-family: "Raleway", sans-serif;
+    color:var(--blue);
 }
 body, header, main, footer, section, article, aside {
     margin:0px;
@@ -59,8 +61,13 @@ header {
     background-color: var(--white);
     text-align: center;
 }
-header a, header p, nav a {
-    color: lightgrey;
+.logo1 {
+    height: 100px;
+    width: auto;
+    margin: 10px auto;
+}
+header a, header p, nav a, label {
+    color:var(--blue);
     text-decoration: none;
 }
 .hero-orcas, main section {
@@ -84,14 +91,14 @@ nav ul li {
     height: 100px;
 }
 nav ul li:hover {
-    background-color: lightgrey;
+    background-color:var(--green);
     color:var(--white);
 }
 main section {
     height: 400px;
 }
 .item1 {
-    background-image: url(../images/sj-012.jpg);
+    background-image: url(../images/sj-015.jpg);
 }
 .item3 {
     background-image: url(../images/sj-025.jpg);
@@ -100,7 +107,7 @@ main section {
     background-image: url(../images/sj-068.jpg);
 }
 .item7 {
-    background-image: url(../images/sj-029.jpg);
+    background-image: url(../images/sj-022.jpg);
 }
 .item2, .item4, .item6 {
     background-image: none;
